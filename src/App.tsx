@@ -1,7 +1,5 @@
+import { Transactions } from './pages/Transactions/Transactions'
+
 export function App() {
-  return (
-    <div>
-      <p>a</p>
-    </div>
-  )
+  return <Transactions />
 }

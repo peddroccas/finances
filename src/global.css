@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :focus {
+    @apply shadow-global;
+    @apply outline-0;
+  }
+
+  body {
+    @apply bg-gray-800; 
+    @apply text-gray-100; 
+    @apply antialiased;
+  }
+
+  body, input, textarea, button {
+    @apply font-normal text-base font-roboto
+  }
+}
