@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Meu App de Finanças
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este é um aplicativo de finanças pessoais desenvolvido com React. O objetivo deste app é ajudar a controlar suas finanças, registrando entradas e saídas, e fornecendo uma visão clara de suas finanças ao longo do tempo.
 
-## Expanding the ESLint configuration
+## Status do Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-- Configure the top-level `parserOptions` property like this:
+## Funcionalidades
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Registro de entradas e saídas financeiras.
+- Visualização de transações por mês e ano.
+- Cálculo da taxa de crescimento mensal e anual.
+- Alertas personalizados para notificações financeiras importantes.
+- Interface responsiva e otimizada para dispositivos móveis.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Axios**: Cliente HTTP para realizar requisições à API.
+- **Tailwind CSS**: Framework de CSS para estilização da aplicação.
+- **Vite**: Ferramenta de build para desenvolvimento rápido.
+
+## Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/meu-app-de-financas.git
