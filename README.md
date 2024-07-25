@@ -19,12 +19,4 @@ Este é um aplicativo de finanças pessoais desenvolvido com React. O objetivo d
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
-- **Axios**: Cliente HTTP para realizar requisições à API.
 - **Tailwind CSS**: Framework de CSS para estilização da aplicação.
-- **Vite**: Ferramenta de build para desenvolvimento rápido.
-
-## Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/meu-app-de-financas.git
